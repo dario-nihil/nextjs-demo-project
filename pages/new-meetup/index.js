@@ -14,7 +14,7 @@ const NewMeetupPage = () => {
       },
     });
 
-    const data = await reponse.json();
+    await reponse.json();
     router.push("/");
   };
 
